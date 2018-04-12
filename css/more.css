@@ -6,6 +6,7 @@
 .more .more__header {
   background-color: white;
   padding: 15px 20px;
+  padding-right: 30px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -63,6 +64,7 @@
 .more_option .more__option-title {
   font-size: 12px;
   margin-top: 10px;
+  text-align: center;
 }
 
 .more .more__plus-friends {
@@ -125,4 +127,9 @@
 
 .more__links .more__options-title {
   font-size: 12px;
+  text-align: center;
+}
+
+.plus-friends__item-title {
+  font-size: 14px;
 }

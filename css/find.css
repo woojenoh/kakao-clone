@@ -16,12 +16,13 @@
   color: #523737;
 }
 
-.find__option .fa-lg {
-  margin-bottom: 15px;
+.find__option .fa-2x {
+  margin-bottom: 10px;
 }
 
 .find__option span {
   font-size: 12px;
+  text-align: center;
 }
 
 .find__recommended header {

@@ -1,3 +1,7 @@
+.body-profile {
+  padding-bottom: 30px;
+}
+
 .top-header--transparent {
   background-color: transparent;
 }
@@ -5,7 +9,7 @@
 .profile .profile__header {
   background-image: url("http://www.androidwallpper.com/wp-content/uploads/2017/01/beautiful-material-design-hd-wallpapers-for-android.png");
   background-position: center center;
-  height: 70vh;
+  height: 60vh;
   width: 100%;
   position: relative;
   top: -60px;
@@ -18,13 +22,18 @@
 .profile__header .profile__header-container {
   text-align: center;
   position: relative;
-  bottom: -50px;
+  bottom: -60px;
 }
 
 .profile__header-container img {
   width: 100px;
   height: 100px;
   border-radius: 50%;
+}
+
+.profile__header-title {
+  margin-top: 10px;
+  margin-bottom: 5px;
 }
 
 .profile .profile__container {
