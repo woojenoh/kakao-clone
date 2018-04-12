@@ -45,3 +45,19 @@
   font-size: 10px;
   color: #b4b4b4;
 }
+
+.chat-btn {
+  width: 60px;
+  height: 60px;
+  background-color: #ffe94a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  position: fixed;
+  right: 20px;
+  bottom: 65px;
+  font-size: 25px;
+  color: #523737;
+  box-shadow: 2px 3px 7px rgba(0, 0, 0, 0.25);
+}
