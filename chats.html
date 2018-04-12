@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous"></script>
+  <title>Chats</title>
+</head>
+<body>
+  <header>
+    <div class="header__top">
+      <div class="header__column">
+        <i class="fas fa-plane"></i>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="header__column">
+        18:39
+      </div>
+      <div class="header__column">
+        <i class="far fa-moon"></i>
+        <i class="fab fa-bluetooth"></i>
+        <span class="header__battery">66% <i class="fa fa-battery-full fa-lg"></i></span>
+      </div>
+    </div>
+    <div class="header__bottom">
+      <div class="header__column">
+        <span class="header__text">Edit</span>
+      </div>
+      <div class="header__column">
+        <span class="header__text">Chats <i class="fa fa-caret-down"></i></span>
+      </div>
+      <div class="header__column">
+
+      </div>
+    </div>
+  </header>
+
+  <main class="chats">
+    <div class="search-bar">
+      <i class="fa fa-search"></i>
+      <input type="text" placeholder="Find friends, chats, Plus Friends">
+    </div>
+    <ul class="chats__list">
+      <li class="chats__chat">
+        <div class="chat__content">
+          <img src="images/avatar.png" alt="">
+          <div class="chat__preview">
+            <h3 class="chat__user">Lynn</h3>
+            <span class="chat__last-message">Hello!</span>
+          </div>
+        </div>
+        <span class="chat__date-time">
+          17:55
+        </span>
+      </li>
+      <li class="chats__chat">
+        <div class="chat__content">
+          <img src="images/avatar.png" alt="">
+          <div class="chat__preview">
+            <h3 class="chat__user">KaKaoTalk</h3>
+            <span class="chat__last-message">You logged into PC!</span>
+          </div>
+        </div>
+        <span class="chat__date-time">
+          Jul 29
+        </span>
+      </li>
+    </ul>
+    <div class="chat-btn">
+      <i class="fa fa-comment"></i>
+    </div>
+  </main>
+
+  <nav class="tab-bar">
+    <a href="index.html" class="tab-bar__tab">
+      <i class="fa fa-user"></i>
+      <span class="tab-bar__title">Friends</span>
+    </a>
+    <a href="chats.html" class="tab-bar__tab tab-bar__tab--selected">
+      <i class="fa fa-comment"></i>
+      <span class="tab-bar__title">Chats</span>
+    </a>
+    <a href="find.html" class="tab-bar__tab">
+      <i class="fa fa-search"></i>
+      <span class="tab-bar__title">Find</span>
+    </a>
+    <a href="more.html" class="tab-bar__tab">
+      <i class="fa fa-ellipsis-h"></i>
+      <span class="tab-bar__title">More</span>
+    </a>
+  </nav>
+</body>
+</html>
