@@ -116,6 +116,10 @@
   width: 90%;
 }
 
+.type-message__input input:focus {
+  outline: none;
+}
+
 .type-message__input .fa-smile {
   position: absolute;
   right: 15%;
