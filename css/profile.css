@@ -32,11 +32,12 @@
 }
 
 .profile__header-title {
-  margin-top: 10px;
+  margin-top: 15px;
   margin-bottom: 5px;
 }
 
 .profile .profile__container {
+  padding-top: 5px;
   margin-top: 15px;
   display: flex;
   flex-direction: column;
@@ -47,6 +48,10 @@
   padding: 3px;
   margin-bottom: 20px;
   text-align: center;
+}
+
+.profile__container input:focus {
+  outline: none;
 }
 
 .profile__actions {
